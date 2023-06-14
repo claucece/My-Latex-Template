@@ -1,0 +1,66 @@
+\documentclass[a4paper,10pt]{llncs}
+\pagestyle{plain}
+
+\usepackage[english]{babel}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{authblk}
+\usepackage{algorithmic}
+\usepackage[lambda,landau,operators,probability,sets,logic,advantage,complexity,asymptotics,notions,mm,primitives,ff,adversary,keys]{cryptocode}
+\usepackage{hyperref}
+\usepackage{xspace}
+\usepackage{bm}
+\usepackage{dashbox}
+\usepackage{seqsplit}
+\usepackage{booktabs}
+\usepackage{ae,aecompl}
+\usepackage{caption,subcaption}
+\usepackage{enumitem}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,shadows,positioning,backgrounds}
+
+\usepackage{hyperref}
+\usepackage[capitalise, nameinlink]{cleveref}
+
+%% TODO NOTES
+
+\usepackage{xcolor}
+\definecolor{oxygenorange}{HTML}{FFDD00}
+\usepackage[color=oxygenorange]{todonotes}
+\newcommand{\alex}[2][inline]{\todo[#1]{\textbf{sofia:} #2}\xspace}
+
+\def\isanonymous{0}
+\usepackage{ifthen}
+\newcommand{\anonymous}[2]{%
+\ifthenelse{\equal{\isanonymous}{1}}%
+{#1}%
+{#2}%
+}%
+\title{}
+\anonymous{
+  \author{}
+  \institute{}
+}{
+  \author{Sofía Celi
+  }
+  \institute{TOD}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\input{intro}
+
+\bibliographystyle{alpha}
+\bibliography{cite,cryptobib/abbrev3,cryptobib/crypto}
+
+\end{document}

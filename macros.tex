@@ -1,0 +1,145 @@
+\newcommand{\A}{\ensuremath{\mathcal{A}}\xspace}
+\newcommand{\B}{\ensuremath{\mathcal{B}}\xspace}
+\newcommand{\C}{\ensuremath{\mathcal{C}}\xspace}
+\newcommand{\D}{\ensuremath{\mathcal{D}}\xspace}
+\newcommand{\E}{\ensuremath{\mathcal{E}}\xspace}
+\newcommand{\F}{\ensuremath{\mathcal{F}}\xspace}
+\newcommand{\G}{\ensuremath{\mathcal{G}}\xspace}
+\renewcommand{\H}{\ensuremath{\mathcal{H}}\xspace}
+\newcommand{\I}{\ensuremath{\mathcal{I}}\xspace}
+\newcommand{\J}{\ensuremath{\mathcal{J}}\xspace}
+\newcommand{\K}{\ensuremath{\mathcal{K}}\xspace}
+\newcommand{\M}{\ensuremath{\mathcal{M}}\xspace}
+\newcommand{\N}{\ensuremath{\mathcal{N}}\xspace}
+\renewcommand{\P}{\ensuremath{\mathcal{P}}\xspace}
+\newcommand{\Q}{\ensuremath{\mathcal{Q}}\xspace}
+\newcommand{\R}{\ensuremath{\mathcal{R}}\xspace}
+\renewcommand{\S}{\ensuremath{\mathcal{S}}\xspace}
+\newcommand{\T}{\ensuremath{\mathcal{T}}\xspace}
+\newcommand{\U}{\ensuremath{\mathcal{U}}\xspace}
+\newcommand{\V}{\ensuremath{\mathcal{V}}\xspace}
+\newcommand{\W}{\ensuremath{\mathcal{W}}\xspace}
+\newcommand{\X}{\ensuremath{\mathcal{X}}\xspace}
+\newcommand{\Y}{\ensuremath{\mathcal{Y}}\xspace}
+\newcommand{\Z}{\ensuremath{\mathcal{Z}}\xspace}
+\newcommand{\odv}{\ensuremath{\mathcal{O}}\xspace}
+\newcommand{\OO}{\ensuremath{\mathbb{O}}\xspace}
+\renewcommand{\SS}{\ensuremath{\mathbb{S}}\xspace}
+\newcommand{\threshold}{\ensuremath{\kappa}\xspace}
+\newcommand{\total}{\ensuremath{\eta}\xspace}
+\newcommand{\RO}{\ensuremath{\mathsf{RO}}\xspace}
+
+% misc
+\newcommand{\push}[1]{\ensuremath{\mathsf{push}(#1)}\xspace}
+\newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
+% \newcommand{\goodcell}[1]{\cellcolor{green!25}{#1}}
+% \newcommand{\avgcell}[1]{\cellcolor{yellow!25}{#1}}
+% \newcommand{\badcell}[1]{\cellcolor{red!25}{#1}}
+\newcommand{\goodcell}[1]{\cellcolor{white}{#1}}
+\newcommand{\avgcell}[1]{\cellcolor{white}{#1}}
+\newcommand{\badcell}[1]{\cellcolor{white}{#1}}
+
+% problems and definitions
+\newcommand{\ndhe}{\ensuremath{\mathsf{nDHE}}\xspace}
+\newcommand{\omgapsdhi}[2]{\ensuremath{(#1,#2)\textsf{-OM-Gap-SDHI}}\xspace}
+
+% encryption
+\newcommand{\skescheme}{\ensuremath{\mathsf{ske}}\xspace}
+\newcommand{\skeschemeshort}{\ensuremath{\Sigma}\xspace}
+\newcommand{\aux}{\ensuremath{\mathsf{aux}}\xspace}
+
+% crypto
+\newcommand{\mpk}{\ensuremath{\mathsf{mpk}}\xspace}
+\newcommand{\msk}{\ensuremath{\mathsf{msk}}\xspace}
+\newcommand{\pparams}{\ensuremath{\mathsf{pp}}\xspace}
+\renewcommand{\rq}{\ensuremath{\mathsf{rq}}\xspace}
+\renewcommand{\state}{\ensuremath{\mathsf{st}}\xspace}
+\newcommand{\rp}{\ensuremath{\mathsf{rp}}\xspace}
+\newcommand{\derive}[1]{\ensuremath{\mathsf{derive}(#1)}\xspace}
+\newcommand{\mskgen}[1]{\ensuremath{\mathsf{keygen}(#1)}\xspace}
+\newcommand{\req}[1]{\ensuremath{\mathsf{req}(#1)}\xspace}
+\renewcommand{\eval}[1]{\ensuremath{\mathsf{eval}(#1)}\xspace}
+\newcommand{\ev}[1]{\ensuremath{\mathsf{ev}(#1)}\xspace}
+\newcommand{\blindeval}[1]{\ensuremath{\mathsf{blindeval}(#1)}\xspace}
+\newcommand{\unblind}[1]{\ensuremath{\mathsf{unblind}(#1)}\xspace}
+\newcommand{\finalize}[1]{\ensuremath{\mathsf{finalize}(#1)}\xspace}
+\renewcommand{\puncture}[1]{\ensuremath{\mathsf{puncture}(#1)}\xspace}
+\newcommand{\poprfsetupbm}[1]{\ensuremath{\text{\textbf{\textsf{setup}}}(#1)}\xspace}
+\newcommand{\mskgenbm}[1]{\ensuremath{\text{\textbf{\textsf{keygen}}}(#1)}\xspace}
+\newcommand{\reqbm}[1]{\ensuremath{\text{\textbf{\textsf{req}}}(#1)}\xspace}
+\newcommand{\evalbm}[1]{\ensuremath{\text{\textbf{\textsf{eval}}}(#1)}\xspace}
+\newcommand{\blindevalbm}[1]{\ensuremath{\text{\textbf{\textsf{blindeval}}}(#1)}\xspace}
+\newcommand{\unblindbm}[1]{\ensuremath{\text{\textbf{\textsf{unblind}}}(#1)}\xspace}
+\newcommand{\finalizebm}[1]{\ensuremath{\text{\textbf{\textsf{finalize}}}(#1)}\xspace}
+\newcommand{\puncturebm}[1]{\ensuremath{\text{\textbf{\textsf{puncture}}}(#1)}\xspace}
+\newcommand{\pkverify}[1]{\ensuremath{\mathsf{pkverify}(#1)}\xspace}
+\newcommand{\corrupt}{\ensuremath{\mathsf{corrupt}}\xspace}
+\newcommand{\mskgennoinput}{\ensuremath{\mathsf{keygen}}\xspace}
+\newcommand{\derivenoinput}{\ensuremath{\mathsf{derive}}\xspace}
+\newcommand{\puncturenoinput}{\ensuremath{\mathsf{puncture}}\xspace}
+\newcommand{\evalnoinput}{\ensuremath{\mathsf{eval}}\xspace}
+\newcommand{\reqnoinput}{\ensuremath{\mathsf{req}}\xspace}
+\newcommand{\blindevalnoinput}{\ensuremath{\mathsf{blindeval}}\xspace}
+\newcommand{\unblindnoinput}{\ensuremath{\mathsf{unblind}}\xspace}
+\newcommand{\pkverifynoinput}{\ensuremath{\mathsf{pkverify}}\xspace}
+\newcommand{\finalizenoinput}{\ensuremath{\mathsf{finalize}}\xspace}
+
+% mpc
+
+\newcommand{\ideal}[1]{\ensuremath{\mathsf{Ideal}(#1)}\xspace}
+\newcommand{\real}[1]{\ensuremath{\mathsf{Real}(#1)}\xspace}
+\newcommand{\protocol}{\ensuremath{\P}\xspace}
+\newcommand{\inputs}{\ensuremath{\mathsf{inputs}}\xspace}
+\newcommand{\comp}{\ensuremath{\stackrel{{\tiny c}}{\simeq}}\xspace}
+\newcommand{\chkequal}{\ensuremath{\stackrel{{\tiny ?}}{=}}\xspace}
+\newcommand{\leakage}[1]{\ensuremath{\mathsf{L}(#1)}\xspace}
+\newcommand{\leakagenoinput}{\ensuremath{\mathsf{L}}\xspace}
+\newcommand{\wedgespace}{\ensuremath{\,\wedge\,}\xspace}
+\newcommand{\veespace}{\ensuremath{\,\vee\,}\xspace}
+\newcommand{\game}[1]{\ensuremath{\G_{#1}}\xspace}
+\newcommand{\oracle}[1]{\ensuremath{\odv_{#1}}\xspace}
+
+% layout
+
+\newcommand{\point}[1]{\par{\noindent\textit{#1.}}}
+
+\newcommand{\sfone}{\textsf{1}}
+\newcommand{\sftwo}{\textsf{2}}
+
+% punc oprf
+
+\newcommand{\threehash}{\ensuremath{\mathsf{3H}}\xspace}
+
+% poprf security
+\newcommand{\Init}{\ensuremath{\mathsf{Init}}\xspace}
+
+\newcommand{\Fn}{\ensuremath{\mathcal{F}}\xspace}
+\newcommand{\Setup}{\ensuremath{\mathsf{Setup}}\xspace}
+\newcommand{\KeyGen}{\ensuremath{\mathsf{KeyGen}}\xspace}
+\newcommand{\Request}{\ensuremath{\mathsf{Request}}\xspace}
+\newcommand{\BlindEval}{\ensuremath{\mathsf{BlindEval}}\xspace}
+\newcommand{\HEEval}{\ensuremath{\mathsf{HEEval}}\xspace}
+\newcommand{\Finalise}{\ensuremath{\mathsf{Finalise}}\xspace}
+\newcommand{\Eval}{\ensuremath{\mathsf{Eval}}\xspace}
+\newcommand{\Verify}{\ensuremath{\mathsf{Verify}}\xspace}
+\newcommand{\SK}{\ensuremath{\mathsf{SK}}\xspace}
+\newcommand{\PK}{\ensuremath{\mathsf{PK}}\xspace}
+\newcommand{\Out}{\ensuremath{\mathsf{Out}}\xspace}
+\newcommand{\In}{\ensuremath{\mathsf{In}}\xspace}
+\renewcommand{\pp}{\ensuremath{\mathsf{pp}}\xspace}
+
+\newcommand{\OEval}{\ensuremath{\mathrm{Eval}}\xspace}
+\newcommand{\OLimitEval}{\ensuremath{\mathrm{LimitEval}}\xspace}
+\newcommand{\OBlindEval}{\ensuremath{\mathrm{BlindEval}}\xspace}
+\newcommand{\OPrim}{\ensuremath{\mathrm{Prim}}\xspace}
+\newcommand{\ORun}{\ensuremath{\mathrm{Run}}\xspace}
+\newcommand{\ORequest}{\ensuremath{\mathrm{Request}}\xspace}
+\newcommand{\OFinalise}{\ensuremath{\mathrm{Finalise}}\xspace}
+
+\newcommand{\RandFn}{\ensuremath{\mathsf{RandFn}}\xspace}
+\newcommand{\FnGen}{\ensuremath{\mathsf{FnGen}}\xspace}
+\newcommand{\popriv}{\ensuremath{\text{POPRIV}{c}}\xspace}
+\newcommand{\poprivone}{\ensuremath{\text{POPRIV}{1}}\xspace}
+\newcommand{\poprivtwo}{\ensuremath{\text{POPRIV}{2}}\xspace}
+
+\newcommand{\hashfunc}[1]{\ensuremath{\mathsf{H}_{#1}}\xspace}
